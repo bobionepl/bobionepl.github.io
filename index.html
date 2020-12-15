@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		  integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<header>
+	<a href="#" class="logo">Portfolio</a>
+	<div class="toggle" onclick="toggleMenu();"></div>
+	<ul class="menu">
+		<li><a href="#home" onclick="toggleMenu();">Home</a></li>
+		<li><a href="#about" onclick="toggleMenu();">About</a></li>
+		<li><a href="#projects" onclick="toggleMenu();">Projects</a></li>
+		<!--		<li><a href="#">Kursy</a></li>-->
+		<li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+	</ul>
+</header>
+<section class="banner cursorOn" id="home">
+	<div class="textBx">
+		<h2>Hello, I'm<br><span>Lukasz Lewak</span></h2>
+		<h3>I'm Front End Web Developer</h3>
+		<a href="#about" class="btn">About Me!</a>
+	</div>
+	<ul>
+		<li><a href=""><i class="fab fa-github"> </i></a></li>
+		<li><a href=""><i class="fab fa-linkedin-in"> </i></a></li>
+		<li><a href=""><i class="fab fa-facebook"> </i></a></li>
+		<li><a href=""><i class="fab fa-twitter"> </i></a></li>
+	</ul>
+	<div class="dot"></div>
+
+
+</section>
+<section class="about" id="about">
+	<div class="heading">
+		<h2>About Me</h2>
+	</div>
+	<div class="content">
+		<div class="contentBx">
+			<h3>I'm Front End Web Developerem</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+				Accusantium amet aperiam architecto beatae commodi corporis
+				debitis doloremque, enim error esse et id illum impedit, ipsa
+				maiores natus nesciunt, nisi nostrum placeat quia recusandaedebitis doloremque, enim error esse et id
+				illum impedit, ipsa
+				maiores natus nesciunt, nisi nostrum placeat quia recusandae
+
+				soluta suscipit temporibus velit veritatis! Dicta earum eveniet ipsam
+				laboriosam optio qui quos ratione rem similique. <br><br> Lorem ipsum dolor sit amet,
+				consectetur adipisicing elit. Ab, aperiam autem commodi cum debitis doloremque, enim error esse et id
+				illum impedit, ipsa
+				maiores natus nesciunt, nisi nostrum placeat quia recusandaecupiditate debitis dolor
+				e dolorum esse hic illum inventore iusto necessitatibus
+				nesciunt nihil quasi saepe tempore vel voluptatem?</p>
+		</div>
+		<div class="w50">
+			<img src="assets/img1.jpg" alt="img">
+		</div>
+	</div>
+</section>
+<section class="projects cursorOn" id="projects">
+	<div class="heading white">
+		<h2>Projects</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+	</div>
+	<div class="content">
+		<a class="projectLink" href="https://coolkings-00420.web.app/" target="_blank">
+			<div class="projectBx">
+				<img src="assets/king.png" alt="">
+				<h2>CoolKings</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					dolore facere in neque non sequi temporibus totam unde? Quam, vel!</p>
+			</div>
+		</a>
+		<a class="projectLink" href="https://hulu-clone-69420.web.app/" target="_blank">
+			<div class="projectBx">
+				<img src="assets/video.svg" alt="">
+				<h2>Hulu-Clone</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					dolore facere in neque non sequi temporibus totam unde? Quam, vel!</p>
+			</div>
+		</a>
+		<div class="projectBx">
+			<img src="assets/king.png" alt="">
+			<h2>CoolKings</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+				dolore facere in neque non sequi temporibus totam unde? Quam, vel!</p>
+		</div>
+		<div class="projectBx">
+			<img src="assets/king.png" alt="">
+			<h2>CoolKings</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+				dolore facere in neque non sequi temporibus totam unde? Quam, vel!</p>
+		</div>
+
+	</div>
+</section>
+
+<section class="services" id="services">
+	<div class="heading">
+		<h2>Technology</h2>
+		<p>Technologies what I use to work on my projects</p>
+	</div>
+	<div class="content">
+		<div class="servicesBx">
+			<img class="icon" src="assets/nodejs.png" alt="">
+		</div>
+		<div class="servicesBx">
+			<img class="icon" src="assets/html-5.png" alt="">
+		</div>
+		<div class="servicesBx">
+			<img class="icon" src="assets/css.png" alt="">
+		</div>
+		<div class="servicesBx">
+			<img class="icon" src="assets/javascript.png" alt="">
+		</div>
+		<div class="servicesBx">
+			<img class="icon" src="assets/favpng_react-javascript-library-angularjs-web-application.png" alt="">
+		</div>
+		<div class="servicesBx">
+			<img class="icon" src="assets/favpng_github-social-media-logo-android.png" alt="">
+		</div>
+	</div>
+</section>
+
+<section class="contact cursorOn" id="contact">
+	<div class="heading white">
+		<h2>Contact Me</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, eveniet?</p>
+	</div>
+	<div class="content">
+		<div class="contactInfo">
+			<h3>Contact Info</h3>
+			<div class="contactInfoBx">
+				<div class="box">
+					<div class="icon">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+							 class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+							<path fill-rule="evenodd"
+								  d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+						</svg>
+					</div>
+					<div class="text">
+						<h3>Address</h3>
+						<p>Poland<br>Piaseczno,<br>05-500 </p>
+					</div>
+				</div>
+				<div class="box">
+					<div class="icon">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+							 class="bi bi-telephone-fill" viewBox="0 0 16 16">
+							<path fill-rule="evenodd"
+								  d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+						</svg>
+					</div>
+					<div class="text">
+						<h3>Phone</h3>
+						<p>+48 792 763 173</p>
+					</div>
+				</div>
+				<div class="box">
+					<div class="icon">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+							 class="bi bi-envelope-fill" viewBox="0 0 16 16">
+							<path fill-rule="evenodd"
+								  d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+						</svg>
+					</div>
+					<div class="text">
+						<h3>Email</h3>
+						<p>lewak.lukasz@gmail.com</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="formBx">
+			<form action="contact-form-handler.php" method="post">
+				<h3>Message Me</h3>
+				<input type="text" name="name" placeholder="Full Name">
+				<input type="email" name="email" placeholder="Email">
+				<textarea name="text" placeholder="Your Message" id="" cols="30" rows="10"></textarea>
+				<input type="submit" value="Send" name="submit">
+			</form>
+		</div>
+
+	</div>
+	<ul>
+		<li><a href="https://github.com/bobionepl" target="_blank"><i class="fab fa-github"> </i></a></li>
+		<li><a href=""><i class="fab fa-linkedin-in"> </i></a></li>
+		<li><a href=""><i class="fab fa-facebook"> </i></a></li>
+		<li><a href=""><i class="fab fa-twitter"> </i></a></li>
+	</ul>
+</section>
+<div class="copyright">
+	<p>Copyright &copy; 2020 BobiOne</p>
+</div>
+<script type="text/javascript">
+    window.addEventListener('scroll', function () {
+        var header = document.querySelector('header');
+        header.classList.toggle('sticky', window.scrollY > 0);
+    });
+
+    function toggleMenu() {
+        var menuToggle = document.querySelector('.toggle');
+        var menu = document.querySelector('.menu')
+        menuToggle.classList.toggle('active');
+        menu.classList.toggle('active')
+    };
+
+    const body = document.querySelector('body');
+    const dot = document.querySelector('.dot');
+    document.addEventListener('mousemove', (e) => {
+        dot.style.left = e.clientX + 'px';
+        dot.style.top = e.clientY + 'px';
+
+    });
+
+</script>
+
+</body>
+</html>
