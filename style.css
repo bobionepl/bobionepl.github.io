@@ -399,6 +399,65 @@ header.sticky ul li a {
 /*    height: 60px;*/
 /*    border: 2px solid #01a7c1;*/
 /*}*/
+#clock {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+
+#clock h2{
+    position: relative;
+    display: block;
+    color: #fff;
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    font-size: .8em;
+}
+
+#clock #time {
+    display: flex;
+}
+
+#clock #time div {
+    position: relative;
+    margin: 0 5px;
+}
+
+#clock #time div span {
+    position: relative;
+    width: 100px;
+    height: 80px;
+    background: #01a7c1;
+    color: #fff;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    z-index: 10;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.2);
+}
+#clock #time div span:nth-child(2) {
+    height: 30px;
+    font-size: .7em;
+    letter-spacing: .2em;
+    font-weight: 500;
+    z-index: 9;
+    box-shadow: none;
+    background: #038599;
+    text-transform: uppercase;
+}
+
+#clock #time div:last-child span {
+    background: #ff006a;
+}
+
+#clock #time div:last-child span:nth-child(2) {
+    background: #ec0062;
+}
 
 
 @media(max-width: 991px){
@@ -511,6 +570,10 @@ header.sticky ul li a {
 }
 
 @media (max-width: 600px) {
+    #clock {
+        display: none;
+    }
+
     header,
     header.sticky {
         padding: 20px 20px;
