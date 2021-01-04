@@ -13,12 +13,13 @@ section {
 }
 
 
+/* new banner */
 
-
+/* new banner */
 .banner {
     position: relative;
     min-height: 100vh;
-    background: url(assets/hacker.jpg);
+    background: url(assets/banner.png);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -46,7 +47,7 @@ section {
 
 .btn {
     position: relative;
-    background: #01a7c1;
+    background: #5693bb;
     display: inline-block;
     color: #fff;
     margin-top: 20px;
@@ -109,8 +110,42 @@ header ul li a {
     text-decoration: none;
 }
 
+header ul li a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+header ul li a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
 header.sticky ul li a {
     color: #111;
+}
+
+header.sticky ul li a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #111;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+header.sticky ul li a:hover:after {
+    width: 100%;
+    left: 0;
 }
 
 .heading {
@@ -136,6 +171,8 @@ header.sticky ul li a {
 
 .w50 {
     min-width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 .w50 img {
@@ -173,7 +210,7 @@ header.sticky ul li a {
 }
 
 .projects .content .projectBx:hover {
-    background: #01a7c1;
+    background: #5693bb;
 }
 
 .projects .content .projectBx img {
@@ -277,7 +314,7 @@ header.sticky ul li a {
 
 .formBx form input[type="submit"] {
     max-width: 100px;
-    background: #01a7c1;
+    background: #5693bb;
     cursor: pointer;
 }
 
@@ -316,7 +353,7 @@ header.sticky ul li a {
 
 .contactInfoBx .box .text h3 {
     font-weight: 500;
-    color: #01a7c1;
+    color: #5693bb;
 
 }
 
@@ -356,7 +393,7 @@ header.sticky ul li a {
 }
 
 .banner ul li:hover a {
-    color: #01a7c1;
+    color: #5693bb;
 
 }
 
@@ -379,7 +416,7 @@ header.sticky ul li a {
 }
 
 .contact ul li:hover a {
-    color: #01a7c1;
+    color: #5693bb;
 
 }
 /*.dot {*/
@@ -430,7 +467,7 @@ header.sticky ul li a {
     position: relative;
     width: 100px;
     height: 80px;
-    background: #01a7c1;
+    background: #5693bb;
     color: #fff;
     font-weight: 300;
     display: flex;
@@ -447,16 +484,16 @@ header.sticky ul li a {
     font-weight: 500;
     z-index: 9;
     box-shadow: none;
-    background: #038599;
+    background: #4a617b;
     text-transform: uppercase;
 }
 
 #clock #time div:last-child span {
-    background: #ff006a;
+    background: #b41f21;
 }
 
 #clock #time div:last-child span:nth-child(2) {
-    background: #ec0062;
+    background: #952b2f;
 }
 
 
@@ -487,7 +524,7 @@ header.sticky ul li a {
     }
 
     header ul li a {
-        color: #01a7c1;
+        color: #5693bb;
         font-size: 30px;
     }
 
@@ -563,6 +600,9 @@ header.sticky ul li a {
         padding: 50px 10px;
     }
 
+    .contactInfoBx {
+        display: flex;
+    }
     .contact .content {
         flex-direction: column;
         align-items: center;
@@ -586,5 +626,8 @@ header.sticky ul li a {
 
     section {
         padding: 100px 20px;
+    }
+    .contactInfoBx {
+        display: block;
     }
 }

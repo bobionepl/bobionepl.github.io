@@ -33,3 +33,8 @@ function clock() {
 }
 var interval = setInterval(clock, 1000);
 
+$(document).ready(function(){
+    $('.banner div').mouseover(function(){
+        $(this).addClass('flip')
+    })
+})
