@@ -19,7 +19,7 @@ section {
 .banner {
     position: relative;
     min-height: 100vh;
-    background: url(assets/banner.png);
+    background: url(assets/banner.jp2);
     background-size: cover;
     background-position: center;
     display: flex;
