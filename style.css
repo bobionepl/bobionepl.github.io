@@ -421,23 +421,7 @@ header.sticky ul li a:hover:after {
     color: #5693bb;
 
 }
-/*.dot {*/
-/*    position: fixed;*/
-/*    width: 0;*/
-/*    height: 0;*/
-/*    border: 4px solid #fff;*/
-/*    border-radius: 50%;*/
-/*    transform: translate(-50%, -50%);*/
-/*    pointer-events: none;*/
-/*    transition: width .2s, height .2s;*/
 
-/*}*/
-
-/*ul li:hover ~ .dot {*/
-/*    width: 60px;*/
-/*    height: 60px;*/
-/*    border: 2px solid #01a7c1;*/
-/*}*/
 #clock {
     position: absolute;
     bottom: 15px;
@@ -498,13 +482,11 @@ header.sticky ul li a:hover:after {
     background: #952b2f;
 }
 
-
 @media(max-width: 991px){
     header,
     header.sticky {
         padding: 20px 50px;
     }
-
 
     .menu {
         position: fixed;

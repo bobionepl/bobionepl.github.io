@@ -11,12 +11,13 @@ function toggleMenu() {
 };
 
 const body = document.querySelector('body');
-const dot = document.querySelector('.dot');
-document.addEventListener('mousemove', (e) => {
-    dot.style.left = e.clientX + 'px';
-    dot.style.top = e.clientY + 'px';
+const egg = document.querySelector('#egg');
 
-});
+egg.addEventListener('click', easterEgg)
+
+function easterEgg() {
+    window.open("https://www.youtube.com/watch?v=ZZ5LpwO-An4&t=4s",'_blank');
+}
 
 function clock() {
     var hours = document.getElementById('hour');
@@ -38,3 +39,4 @@ $(document).ready(function(){
         $(this).addClass('flip')
     })
 })
+
