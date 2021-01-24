@@ -10,6 +10,10 @@ function toggleMenu() {
     menu.classList.toggle('active')
 };
 
+
+document.getElementById("date").innerHTML = Date();
+
+
 const body = document.querySelector('body');
 const egg = document.querySelector('#egg');
 

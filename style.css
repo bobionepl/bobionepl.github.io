@@ -326,12 +326,13 @@ header.sticky ul li a:hover:after {
 }
 .contactInfoBx {
     position: relative;
-
+    display: flex;
 }
 .contactInfoBx .box{
     position: relative;
     padding: 20px 0;
     display: flex;
+    margin-right: 25px;
 }
 
 .contactInfoBx .box .icon{
