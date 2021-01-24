@@ -160,8 +160,8 @@ header.sticky ul li a:hover:after {
     justify-content: space-between;
 }
 
-.contentBx {
-
+.contentBx p span {
+    font-weight: bold;
 }
 
 .contentBx h3 {
@@ -327,6 +327,7 @@ header.sticky ul li a:hover:after {
 .contactInfoBx {
     position: relative;
     display: flex;
+    justify-content: space-between;
 }
 .contactInfoBx .box{
     position: relative;
