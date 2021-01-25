@@ -348,7 +348,7 @@ header.sticky ul li a:hover:after {
 
 .contactInfoBx .box .text {
     display: flex;
-    margin-left: 20px;
+    /*margin-left: 20px;*/
     font-size: 16px;
     color: white;
     flex-direction: column;
@@ -399,6 +399,10 @@ header.sticky ul li a:hover:after {
 .banner ul li:hover a {
     color: #5693bb;
 
+}
+
+section.contact {
+   padding: 50px 50px 20px 50px;
 }
 
 .contact ul {
@@ -580,7 +584,7 @@ header.sticky ul li a:hover:after {
     }
 
     section.contact {
-        padding: 50px 10px;
+        padding: 50px 10px 20px 10px;
     }
 
     .contactInfoBx {
